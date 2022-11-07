@@ -1,0 +1,535 @@
+/* All CSS styles go here */
+.topnav {
+  background-color: #cf1b00;
+  overflow: hidden;
+  border-bottom: 1px solid #ffffff;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 160px;
+  text-decoration: none;
+  font-family: kepler-std-display,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+}
+
+.topnav a:hover {
+  ;
+}
+
+  .topnav a.active {
+  background-color: #cf1b00;
+  color: white;
+}
+
+.container {background:#ff9b00;
+padding:0;
+margin:0}
+
+h1{
+font-family: kepler-std-condensed-display,serif;
+font-weight: 200;
+font-style: normal;
+color: white;
+font-size: 600px;
+text-align: center;
+}
+
+}
+p{
+font-family: kepler-std-display,serif;
+font-weight: 400;
+font-style: normal;
+font-size: 30px;
+}
+
+h3{
+column-count: 3;
+font-family: kepler-std-display,serif;
+font-weight: 300;
+font-style: normal;
+font-size: 38px;
+box-sizing: border-box;
+padding: 100px;
+text-align: left;
+}
+
+h5 {font-family: kepler-std-subhead, serif;
+font-weight: 300;
+font-style: normal;
+font-size: 180px;
+text-align: center;
+}
+
+h2{font-family: kepler-std-subhead, serif;
+color: white;
+font-weight: 300;
+font-style: normal;
+font-size: 90px;
+text-align: right;
+box-sizing: border-box;
+padding-right: 160px;
+padding-top:100px;
+}
+
+h4 {font-family: kepler-std-display, serif;
+font-weight: 300;
+font-style: normal;
+font-size: 180px;
+text-align: center;
+color: white;
+}
+
+.body1 {font-family: kepler-std-display, serif;
+font-weight: 200;
+font-style: normal;
+font-size: 10px;
+text-align: center;}
+
+.bodywhole {padding-right: 120px}
+.specimenbox {
+
+  margin: 0 1.5%;
+  width: 63%;
+background-color: white;
+box-sizing: border-box;
+float:left;
+    color: black;
+    font-family: kepler-std-display, serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 300%;
+    text-align: center;
+    width: 28%;
+    height: 40%;
+    column-count: 4;
+    padding: 40px;
+    position:absolute;
+    top: 2700px;
+    left: 150px;
+    width: 775px;
+    height: 605px;
+
+}
+.class3
+{font-family: kepler-std-display, serif;
+font-weight: 300;
+font-style: normal;
+font-size: 1px;
+text-align: center;
+margin: 0 1.5%;}
+.bodywhole {position:absolute;
+top: 3400px;
+left: 150px;}
+
+.headerintro {color:black;
+  ont-family: kepler-std-display, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 130px;;
+padding-left: 100px;
+padding-top:100px}
+
+.bodycopy1{font-family: kepler-std-extended-display,serif;
+font-weight: 300;
+font-style: italic;
+font-size:25px;
+margin: 0 1.5%;}
+
+.bodycopy2{font-family: kepler-std-extended,serif;
+font-weight: 300;
+font-style: normal;
+font-size:35px;
+margin: 0 1.5%;}
+
+.bodycopy3{font-family: kepler-std-caption,serif;
+font-weight: 400;
+font-style: normal;
+font-size:28px;
+margin: 0 1.5%;}
+
+.life{
+
+font-family: kepler-std-extended-display,serif;
+font-weight: 900;
+font-style: normal;
+font-size: 200px;
+text-align: center;
+overflow: hidden;
+}
+.title-word {
+  animation: color-animation 3s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+  --color-1: #fdeb37;
+  --color-2: #DF8453;
+  --color-3: #9970ee;
+}
+  .title-word-5 {
+    --color-1: #ACCFCB;
+    --color-2: #DF8453;
+    --color-3: #7fe17e;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container {background: #641800;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 100vh
+}
+
+
+
+
+.Displayshowcase1{font-family: kepler-std-display, serif;
+font-weight: 300;
+font-style: normal;
+font-size: 430px;
+text-align: center;
+color: black;
+}
+
+
+.Displayshowcase2{font-family: kepler-std-display, serif;
+font-weight: 300;
+font-style: normal;
+font-size: 380px;
+text-align: left;
+color: black;
+}
+
+
+.Displayshowcase3{font-family: kepler-std-display, serif;
+font-weight: 300;
+font-style: normal;
+font-size: 480px;
+text-align: right;
+color: black;
+}
+
+
+.Displayshowcase4{font-family: kepler-std-display, serif;
+font-weight: 300;
+font-style: normal;
+font-size: 280px;
+text-align: center;
+color: black;
+}
+
+
+.Displayshowcase5{font-family: kepler-std-display, serif;
+font-weight: 300;
+font-style: normal;
+font-size: 450px;
+text-align: center;
+color: black;
+}
+
+
+* {
+        margin: 0;
+        padding: 0;
+    }
+.Kepler {
+      background: #cf1b00;
+    height: 1080px; width: auto;
+    }
+
+.Intro {background: #ffffef;
+height: 1440px; width: auto;
+}
+.Typespecimen {background: #fbcd43;
+height: 1440px; width: auto;
+}
+
+.Displayshowcase {background: #ffffef;
+height: 2000px; width: auto;
+}
+
+.Flow {background: #0017c2;
+height: 1440px; width: auto;
+body
+  display: flex;
+  background: #0017c2;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.Illusion {background: #ffffef;
+height: 1440px; width: auto;
+align-items: center;
+justify-content: center;
+margin: 0
+}
+
+
+.content {
+  position: relative;
+}
+
+.content h6 {
+  color: #fff;
+  font-size: 17em;
+  position: absolute;
+  transform: translate(6%, 100%);
+}
+
+.content h6:nth-child(1) {
+  color: #ffffff;
+  -webkit-text-stroke: 2px #03a9f4;
+}
+
+.content h6:nth-child(2) {
+  color: #03a9f4;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+
+}
+}
+
+
+
+
+
+#container { margin: 0%;  overflow: hidden;; }
+
+#circle { position: relative; width: 100%; padding-bottom: 100%; overflow: hidden; }
+
+#circle text { font-family: 'kepler-std-condensed-display',Serif; font-size: 60px; font-weight: bold;overflow: hidden; }
+
+#circle svg { position: absolute; left: 0; top: 0; width: 100%; height: 940px;overflow: hidden;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 1s;
+     -moz-animation-duration: 1s;
+      -ms-animation-duration: 1s;
+       -o-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+
+
+
+#container2 { margin: 0%; overflow: hidden; }
+
+#circle2 { position: absolute; width: 100%; padding-bottom: 0%; overflow: hidden;top: 8200px;overflow: hidden;
+left: 150px;
+width: 775px }
+
+#circle2 text { font-family: 'kepler-std-condensed-display',Serif; font-size: 70px; font-weight: bold; overflow: hidden; }
+
+#circle2 svg { position: absolute; left: 0; top: 0; width: 100%; height: 440px;overflow: hidden;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 0.01s;
+     -moz-animation-duration: 0.01s;
+      -ms-animation-duration: 0.01s;
+       -o-animation-duration: 0.01s;
+          animation-duration: 0.01s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#container3 { margin: 0%; }
+
+#circle3{ position: absolute; width: 100%; padding-bottom: 0%; overflow: hidden; top: 8210px;overflow: hidden;
+right:250px;
+width: 775px }
+
+#circle3 text { font-family: 'kepler-std-condensed-display',Serif; font-size: 70px; font-weight: bold;overflow: hidden; }
+
+#circle3 svg { position: absolute; left: 0; top: 0; width: 100%; height: 440px; overflow: hidden;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 0.4s;
+     -moz-animation-duration: 0.4s;
+      -ms-animation-duration: 0.4s;
+       -o-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+
+}
